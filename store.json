@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T21:47:22.375Z",
+  "updated": "2026-10-01T23:23:31.283Z",
   "categories": [
     {
       "id": "igri",
@@ -45,7 +45,7 @@
       },
       "release": null,
       "downloads": null,
-      "updated": "2026-10-01T21:39:04Z",
+      "updated": "2026-10-01T22:00:17Z",
       "shots": [
         {
           "kind": "phone",
@@ -75,7 +75,7 @@
       "play": null,
       "release": null,
       "downloads": null,
-      "updated": "2026-10-01T21:39:11Z",
+      "updated": "2026-10-01T22:00:10Z",
       "shots": [
         {
           "kind": "phone",
@@ -84,6 +84,32 @@
         {
           "kind": "pc",
           "src": "shots/muallim-pc.jpg?v=20261001203349"
+        }
+      ]
+    },
+    {
+      "id": "rodopska-ferma",
+      "repo": "me7ko-dev/rodopska-ferma",
+      "code": "https://github.com/me7ko-dev/rodopska-ferma",
+      "name": "Родопска ферма",
+      "tagline": "3D ферма в Родопите — сей, гледай животни, купувай къщи и коли",
+      "description": "Голяма 3D игра за ферма: 14 култури, кокошки, крави, овце, кози и пчели, 11 работилници (баница, родопско кисело мляко, лютеница, баклава), поръчки от селото, къщи с наем и 10 коли, които можеш да караш.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/rodopska-ferma/",
+      "icon": "https://me7ko-dev.github.io/rodopska-ferma/icon-192.png",
+      "emoji": "🌾",
+      "color": "#4d7c0f",
+      "pwa": true,
+      "landscape": false,
+      "featured": true,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T23:22:28Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/rodopska-ferma-phone.jpg"
         }
       ]
     },
@@ -105,7 +131,7 @@
       "play": null,
       "release": null,
       "downloads": null,
-      "updated": "2026-10-01T21:16:32Z",
+      "updated": "2026-10-01T21:53:36Z",
       "shots": [
         {
           "kind": "phone",
@@ -151,7 +177,7 @@
         "apk": 1,
         "win": 0
       },
-      "updated": "2026-10-01T21:14:51Z",
+      "updated": "2026-10-01T21:53:42Z",
       "shots": [
         {
           "kind": "phone",
@@ -211,7 +237,7 @@
       "play": null,
       "release": null,
       "downloads": null,
-      "updated": "2026-10-01T21:14:14Z",
+      "updated": "2026-10-01T21:53:26Z",
       "shots": [
         {
           "kind": "phone",
@@ -241,7 +267,7 @@
       "play": null,
       "release": null,
       "downloads": null,
-      "updated": "2026-10-01T21:14:44Z",
+      "updated": "2026-10-01T21:54:04Z",
       "shots": [
         {
           "kind": "phone",
