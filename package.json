@@ -1,0 +1,12 @@
+{
+  "name": "metko-stor",
+  "private": true,
+  "type": "module",
+  "description": "Метко Стор — магазинът на https://me7ko-dev.github.io/",
+  "scripts": {
+    "store": "node tools/build-store.mjs",
+    "shots": "node tools/shots.mjs",
+    "test": "node tools/test-store.mjs",
+    "serve": "node tools/serve.mjs"
+  }
+}

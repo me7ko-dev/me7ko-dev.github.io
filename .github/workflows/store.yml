@@ -1,0 +1,59 @@
+# Метко Стор: събира приложенията с topic „metko-store“, прави store.json и снимки от екрана.
+# Върви веднъж на ден, при промяна в списъка (store/apps.json) и на ръка (Actions → Run workflow).
+name: Магазин
+
+on:
+  schedule:
+    - cron: '23 3 * * *'   # 06:23 българско време
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - store/apps.json
+      - tools/**
+      - .github/workflows/store.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: store
+  cancel-in-progress: false
+
+jobs:
+  store:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Пазач — assetlinks.json и .nojekyll (от тях зависи Google Play)
+        run: sha256sum -c tools/protected.sha256
+
+      - name: store.json от GitHub
+        run: node tools/build-store.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Playwright за снимките
+        run: |
+          npm install --no-save --no-package-lock playwright@1
+          npx playwright install --with-deps chromium
+
+      - name: Снимки от екрана (само за променените приложения)
+        run: node tools/shots.mjs
+
+      - name: Пазач — отново, преди да запишем
+        run: sha256sum -c tools/protected.sha256
+
+      - name: Запиши промените
+        run: |
+          git config user.name "metko-stor[bot]"
+          git config user.email "metko-stor@users.noreply.github.com"
+          git add store.json store/shots.json shots
+          if git diff --cached --quiet; then
+            echo "Няма промяна."
+          else
+            git commit -m "Магазин: обновени приложения и снимки"
+            git push
+          fi

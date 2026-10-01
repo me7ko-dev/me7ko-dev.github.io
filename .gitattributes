@@ -1,0 +1,4 @@
+# assetlinks.json трябва да остане байт по байт същият (от него зависи Google Play)
+.well-known/** -text
+*.sha256 text eol=lf
+*.cmd text eol=crlf

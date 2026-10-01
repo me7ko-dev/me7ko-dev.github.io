@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Метко Стор</title>
+<meta name="description" content="Игри и приложения от Метко — Куран-и Керим, Муаллим, Big Burger Business, Метко Магнат и още. Отвори, инсталирай или свали.">
+<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Метко Стор">
+<meta property="og:description" content="Игри и приложения от Метко. Отвори, инсталирай или свали.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://me7ko-dev.github.io/">
+<link rel="icon" href="store/icon.svg" type="image/svg+xml">
+<style>
+:root{
+  --bg:#f5f5f7;--card:#fff;--text:#111827;--muted:#6b7280;--line:#e5e7eb;
+  --accent:#4f46e5;--accent-text:#fff;--pill:#eef0ff;--pill-text:#4338ca;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px rgba(16,24,40,.06);
+  --radius:20px;color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0b0d12;--card:#151821;--text:#f3f4f6;--muted:#9ca3af;--line:#262a36;
+  --accent:#818cf8;--accent-text:#0b0d12;--pill:#22254a;--pill-text:#c7d2fe;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-x:hidden}
+a{color:inherit}
+img{display:block}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:8px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* горна лента */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid transparent;transition:border-color .2s}
+header.scrolled{border-bottom-color:var(--line)}
+.bar{display:flex;align-items:center;gap:14px;padding-top:max(12px,env(safe-area-inset-top));padding-bottom:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+.logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#6366f1,#a855f7 60%,#ec4899);display:grid;place-items:center;color:#fff;font-weight:800;font-size:22px;box-shadow:0 4px 14px rgba(99,102,241,.35)}
+.brand b{font-size:20px;letter-spacing:-.01em}
+.brand small{display:block;color:var(--muted);font-size:12.5px;font-weight:500;margin-top:-2px}
+.search{flex:1;max-width:420px;margin-left:auto;position:relative}
+.search input{width:100%;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);padding:0 14px 0 38px;font:inherit;font-size:15px}
+.search input::placeholder{color:var(--muted)}
+.search svg{position:absolute;left:12px;top:12px;width:18px;height:18px;color:var(--muted)}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:12px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-size:14.5px;font-weight:600;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed=true]{background:var(--text);color:var(--bg);border-color:var(--text)}
+@media (max-width:620px){
+  .bar{flex-wrap:wrap}
+  .search{order:3;flex-basis:100%;max-width:none;margin:0}
+}
+
+/* секции */
+main{padding-bottom:40px}
+section{margin-top:26px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.sec-head h2{margin:0;font-size:22px;letter-spacing:-.01em}
+.sec-head button{background:none;border:0;color:var(--accent);font-weight:600;cursor:pointer;padding:4px 0}
+
+/* избрани */
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:min(86%,370px);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+@media (min-width:1000px){.rail{grid-auto-columns:calc((100% - 28px)/3)}}
+.feat{scroll-snap-align:start;position:relative;border-radius:var(--radius);overflow:hidden;min-height:300px;color:#fff;background:var(--c);text-decoration:none;display:flex;flex-direction:column;justify-content:flex-end;box-shadow:var(--shadow);isolation:isolate}
+.feat img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;z-index:-2}
+.feat::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to bottom,transparent 15%,color-mix(in srgb,var(--c) 70%,#000) 72%)}
+.feat .in{padding:18px}
+.feat .kick{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
+.feat h3{margin:2px 0 4px;font-size:24px;line-height:1.15}
+.feat p{margin:0 0 14px;opacity:.92;font-size:15px}
+.feat .foot{display:flex;align-items:center;gap:10px}
+.feat .foot .get{margin-left:auto;background:rgba(255,255,255,.92);color:#111}
+
+/* списък */
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:4px 22px}
+.row{display:flex;align-items:center;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);min-width:0}
+.row a.open{display:flex;align-items:center;gap:14px;flex:1;min-width:0;text-decoration:none}
+.row .txt{display:block;min-width:0}
+.row .txt b{display:block;font-size:16.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .txt span{display:block;color:var(--muted);font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .txt span+span{font-size:13px}
+.icon{width:64px;height:64px;border-radius:15px;flex-shrink:0;background:var(--c,#334155);display:grid;place-items:center;font-size:32px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+.icon img{width:100%;height:100%;object-fit:cover}
+.icon.emo{background:linear-gradient(140deg,color-mix(in srgb,var(--c) 70%,#fff),var(--c))}
+.get{flex-shrink:0;border:0;border-radius:999px;background:var(--pill);color:var(--pill-text);font-weight:800;font-size:13.5px;letter-spacing:.03em;padding:7px 16px;text-decoration:none;cursor:pointer;text-transform:uppercase}
+.empty{color:var(--muted);padding:30px 0;text-align:center}
+
+/* подробно */
+dialog{border:0;padding:0;background:var(--bg);color:var(--text);width:min(900px,100%);max-width:100%;max-height:100%;height:100%;margin:0 auto;overflow:auto;overscroll-behavior:contain}
+dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(3px)}
+@media (min-width:760px){dialog{height:fit-content;max-height:calc(100% - 48px);margin:24px auto auto;border-radius:24px}}
+.d-top{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:max(10px,env(safe-area-inset-top)) 12px 10px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.d-top button{border:0;background:var(--card);width:38px;height:38px;border-radius:50%;font-size:22px;line-height:1;cursor:pointer;box-shadow:var(--shadow)}
+.d-top .share{font-size:16px}
+.d-body{padding:0 20px 30px}
+.d-head{display:flex;gap:18px;align-items:center}
+.d-head .icon{width:112px;height:112px;border-radius:26px;font-size:58px}
+.d-head h2{margin:0;font-size:26px;line-height:1.15;letter-spacing:-.01em}
+.d-head p{margin:4px 0 0;color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 6px}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:14px;padding:12px 18px;font-weight:700;font-size:15.5px;text-decoration:none;cursor:pointer;background:var(--card);color:var(--text);box-shadow:inset 0 0 0 1px var(--line)}
+.btn.main{background:var(--accent);color:var(--accent-text);box-shadow:none}
+.btn small{font-weight:500;opacity:.75}
+.facts{display:flex;gap:0;overflow-x:auto;margin:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);scrollbar-width:none}
+.facts div{flex:1 0 auto;padding:12px 16px;text-align:center;border-left:1px solid var(--line)}
+.facts div:first-child{border-left:0}
+.facts small{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.facts b{font-size:16px}
+.shots{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin:0 -20px;padding-inline:20px;scrollbar-width:thin}
+.shots img{height:min(440px,62vh);width:auto;border-radius:16px;scroll-snap-align:start;box-shadow:var(--shadow);background:var(--card)}
+.shots img.wide{height:min(300px,40vh)}
+.desc{font-size:16.5px;max-width:65ch}
+.note{background:var(--card);border-radius:16px;padding:16px;margin:18px 0;box-shadow:inset 0 0 0 1px var(--line)}
+.note h3{margin:0 0 6px;font-size:17px}
+.note p{margin:0 0 10px;color:var(--muted)}
+.note ol{margin:0 0 4px;padding-left:20px}
+.note li{margin:6px 0}
+.small{color:var(--muted);font-size:14px}
+.small a{color:var(--accent)}
+
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:22px 0 calc(28px + env(safe-area-inset-bottom))}
+footer p{margin:6px 0;max-width:70ch}
+footer a{color:var(--accent)}
+
+/* малкият прозорец за инсталиране */
+#how{width:min(460px,calc(100% - 32px));height:auto;border-radius:22px;margin:auto;padding:22px}
+#how h3{margin:0 0 8px}
+#how ol{padding-left:20px}
+#how .btns{margin-top:14px}
+</style>
+</head>
+<body>
+<header id="top">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#/" aria-label="Метко Стор — начало">
+        <span class="logo" aria-hidden="true">М</span>
+        <span><b>Метко Стор</b><small>Игри и приложения</small></span>
+      </a>
+      <label class="search">
+        <span class="sr">Търси</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Търси игра или приложение" autocomplete="off">
+      </label>
+    </div>
+    <nav class="chips" id="chips" aria-label="Категории"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <p class="empty">Зареждам…</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><b>Метко Стор</b> — всичко, което правя, на едно място. Всяко приложение е безплатно.</p>
+    <p>Броим само анонимни числа: кое приложение е отворено, инсталирано или свалено и в коя държава. Без бисквитки, без IP адреси и без имена.</p>
+    <p><a href="https://github.com/me7ko-dev">github.com/me7ko-dev</a></p>
+  </div>
+</footer>
+
+<dialog id="app" aria-labelledby="d-name"></dialog>
+<dialog id="how" aria-labelledby="how-title"></dialog>
+
+<script src="brojach.js" data-app="stor"></script>
+<script>
+const T = {
+  all: 'Всичко', featured: 'Избрано', seeAll: 'Виж всички', open: 'Отвори', get: 'Вземи',
+  install: 'Инсталирай', apk: 'Свали за Android', win: 'Свали за Windows', play: 'Google Play',
+  noResults: 'Нищо не намерих. Опитай с друга дума.', loadError: 'Магазинът не се зареди. Провери интернета и опитай пак.',
+  category: 'Категория', version: 'Версия', updated: 'Обновено', downloads: 'Свалено', size: 'Размер',
+  code: 'Кодът в GitHub', back: 'Назад', share: 'Сподели', copied: 'Линкът е копиран',
+};
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const broi = (a, e) => window.metkoBroi && window.metkoBroi(e, a);
+const nf = new Intl.NumberFormat('bg-BG');
+const df = new Intl.DateTimeFormat('bg-BG', { day: 'numeric', month: 'long', year: 'numeric' });
+const mb = (b) => (b / 1048576).toFixed(b > 10485760 ? 0 : 1).replace('.', ',') + ' MB';
+
+let store = { apps: [], categories: [] };
+let cat = 'all';
+let q = '';
+const appDlg = $('#app');
+const howDlg = $('#how');
+
+function icon(a, cls = '') {
+  return a.icon
+    ? `<span class="icon ${cls}" style="--c:${esc(a.color)}"><img src="${esc(a.icon)}" alt="" loading="lazy" decoding="async"></span>`
+    : `<span class="icon emo ${cls}" style="--c:${esc(a.color)}" aria-hidden="true">${esc(a.emoji)}</span>`;
+}
+const catName = (id) => (store.categories.find((c) => c.id === id) || {}).name || '';
+const files = (a) => (a.release ? a.release.files : []);
+
+// Главният бутон в списъка: отваря приложението, а ако няма сайт — показва подробностите.
+function getBtn(a, extra = '') {
+  return a.url
+    ? `<a class="get ${extra}" href="${esc(a.url)}" target="_blank" rel="noopener" data-ev="go" data-app="${a.id}" aria-label="${T.open} ${esc(a.name)}">${T.open}</a>`
+    : `<a class="get ${extra}" href="#/app/${a.id}" aria-label="${T.get} ${esc(a.name)}">${T.get}</a>`;
+}
+function row(a) {
+  return `<div class="row"><a class="open" href="#/app/${a.id}">${icon(a)}<span class="txt"><b>${esc(a.name)}</b><span>${esc(a.tagline)}</span><span>${esc(catName(a.category))}</span></span></a>${getBtn(a)}</div>`;
+}
+function feat(a) {
+  const pc = a.shots.find((s) => s.kind === 'pc');
+  return `<a class="feat" href="#/app/${a.id}" style="--c:${esc(a.color)}">
+    ${pc ? `<img class="bg" src="${esc(pc.src)}" alt="" loading="lazy" decoding="async">` : ''}
+    <div class="in"><div class="kick">${esc(catName(a.category))}</div><h3>${esc(a.name)}</h3><p>${esc(a.tagline)}</p>
+    <div class="foot">${icon(a)}<span class="get">${T.get}</span></div></div></a>`;
+}
+
+function renderChips() {
+  const list = [{ id: 'all', name: T.all, emoji: '' }, ...store.categories.filter((c) => store.apps.some((a) => a.category === c.id))];
+  $('#chips').innerHTML = list
+    .map((c) => `<button class="chip" data-cat="${c.id}" aria-pressed="${c.id === cat}">${c.emoji ? c.emoji + ' ' : ''}${esc(c.name)}</button>`)
+    .join('');
+}
+
+function render() {
+  renderChips();
+  const main = $('#main');
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  if (words.length) {
+    const hits = store.apps.filter((a) => {
+      const hay = [a.name, a.tagline, a.description, catName(a.category), a.id].join(' ').toLowerCase();
+      return words.every((w) => hay.includes(w));
+    });
+    main.innerHTML = `<section><div class="sec-head"><h2>Резултати за „${esc(q)}“</h2></div>${
+      hits.length ? `<div class="list">${hits.map(row).join('')}</div>` : `<p class="empty">${T.noResults}</p>`
+    }</section>`;
+    return;
+  }
+  if (cat !== 'all') {
+    const c = store.categories.find((x) => x.id === cat);
+    const apps = store.apps.filter((a) => a.category === cat);
+    main.innerHTML = `<section><div class="sec-head"><h2>${c ? c.emoji + ' ' + esc(c.name) : ''}</h2></div><div class="list">${apps.map(row).join('')}</div></section>`;
+    return;
+  }
+  const featured = store.apps.filter((a) => a.featured);
+  let html = featured.length
+    ? `<section aria-label="${T.featured}"><div class="sec-head"><h2>${T.featured}</h2></div><div class="rail">${featured.map(feat).join('')}</div></section>`
+    : '';
+  for (const c of store.categories) {
+    const apps = store.apps.filter((a) => a.category === c.id);
+    if (!apps.length) continue;
+    html += `<section><div class="sec-head"><h2>${c.emoji} ${esc(c.name)}</h2>${
+      apps.length > 4 ? `<button data-cat="${c.id}">${T.seeAll}</button>` : ''
+    }</div><div class="list">${apps.slice(0, 6).map(row).join('')}</div></section>`;
+  }
+  main.innerHTML = html;
+}
+
+function detail(a) {
+  const f = files(a);
+  const apk = f.find((x) => x.kind === 'apk');
+  const win = f.find((x) => x.kind === 'win');
+  const btns = [];
+  if (a.url) btns.push(`<a class="btn main" href="${esc(a.url)}" target="_blank" rel="noopener" data-ev="go" data-app="${a.id}">▶ ${T.open}</a>`);
+  if (a.pwa && a.url) btns.push(`<button class="btn" data-install="${a.id}">⬇ ${T.install}</button>`);
+  if (apk) btns.push(`<a class="btn ${a.url ? '' : 'main'}" href="${esc(apk.url)}" data-ev="dl_apk" data-app="${a.id}">🤖 ${T.apk} <small>${mb(apk.size)}</small></a>`);
+  if (win) btns.push(`<a class="btn ${a.url || apk ? '' : 'main'}" href="${esc(win.url)}" data-ev="dl_win" data-app="${a.id}">🪟 ${T.win} <small>${mb(win.size)}</small></a>`);
+  if (a.play && a.play.url) btns.push(`<a class="btn" href="${esc(a.play.url)}" target="_blank" rel="noopener" data-ev="play" data-app="${a.id}">▶ ${T.play}</a>`);
+
+  const facts = [`<div><small>${T.category}</small><b>${esc(catName(a.category))}</b></div>`];
+  if (a.release) facts.push(`<div><small>${T.version}</small><b>${esc(a.release.tag)}</b></div>`);
+  facts.push(`<div><small>${T.updated}</small><b>${df.format(new Date(a.release ? a.release.date : a.updated))}</b></div>`);
+  if (a.downloads && a.downloads.total >= 10) facts.push(`<div><small>${T.downloads}</small><b>${nf.format(a.downloads.total)} пъти</b></div>`);
+
+  const shots = a.shots
+    .map((s) => `<img src="${esc(s.src)}" alt="Снимка от ${esc(a.name)} — ${s.kind === 'pc' ? 'компютър' : 'телефон'}" class="${s.kind === 'pc' || a.landscape ? 'wide' : ''}" loading="lazy" decoding="async">`)
+    .join('');
+
+  let play = '';
+  if (a.play && a.play.status === 'testing') {
+    play = `<div class="note"><h3>Скоро в Google Play</h3><p>Искаш ли да го пробваш първи от Google Play? Трябва ти Android телефон и Google профил.</p>
+      <ol><li><a href="${esc(a.play.group)}" target="_blank" rel="noopener" data-ev="play" data-app="${a.id}">Влез в групата на тестерите</a> (натисни „Присъединяване към групата“).</li>
+      <li><a href="${esc(a.play.testUrl)}" target="_blank" rel="noopener" data-ev="play" data-app="${a.id}">Стани тестер</a> и свали приложението от Google Play.</li></ol></div>`;
+  }
+  const apkNote = apk ? `<p class="small">Android може да попита дали да разреши инсталиране „от неизвестни източници“ — разреши го за браузъра.</p>` : '';
+
+  appDlg.innerHTML = `<div class="d-top"><button data-close aria-label="${T.back}">‹</button><button class="share" data-share="${a.id}" aria-label="${T.share}">⤴</button></div>
+  <div class="d-body">
+    <div class="d-head">${icon(a)}<div><h2 id="d-name">${esc(a.name)}</h2><p>${esc(a.tagline)}</p></div></div>
+    <div class="btns">${btns.join('')}</div>${apkNote}
+    <div class="facts">${facts.join('')}</div>
+    ${shots ? `<div class="shots">${shots}</div>` : ''}
+    <p class="desc">${esc(a.description)}</p>
+    ${play}
+    <p class="small"><a href="${esc(a.code)}" target="_blank" rel="noopener">${T.code}</a></p>
+  </div>`;
+  if (!appDlg.open) appDlg.showModal();
+  appDlg.scrollTop = 0;
+  document.title = a.name + ' — Метко Стор';
+  broi(a.id, 'view');
+}
+
+function howTo(a) {
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const steps = ios
+    ? `<ol><li>Натисни „Отвори“ отдолу — приложението ще се отвори в Safari.</li><li>Натисни <b>Сподели</b> ⬆️ долу на екрана.</li><li>Избери <b>„Добави към началния екран“</b>.</li></ol>`
+    : `<ol><li>Натисни „Отвори и инсталирай“ отдолу.</li><li>В приложението ще излезе балонче — натисни <b>Инсталирай</b>.</li><li>Ако няма балонче: менюто на браузъра <b>⋮</b> → <b>„Инсталирай приложението“</b>.</li></ol>`;
+  const sep = a.url.includes('?') ? '&' : '?';
+  howDlg.innerHTML = `<h3 id="how-title">Инсталирай „${esc(a.name)}“</h3><p class="small">Отваря се като истинско приложение — с иконка на екрана, на цял екран и по-бързо.</p>${steps}
+    <div class="btns"><a class="btn main" href="${esc(a.url + sep)}install=1" target="_blank" rel="noopener" data-ev="install_click" data-app="${a.id}">${ios ? T.open : 'Отвори и инсталирай'}</a><button class="btn" data-close>Затвори</button></div>`;
+  howDlg.showModal();
+}
+
+// адреси: #/  #/c/igri  #/app/umnik
+function route() {
+  const h = location.hash;
+  const m = h.match(/^#\/app\/([a-z0-9-]+)/);
+  if (m) {
+    const a = store.apps.find((x) => x.id === m[1]);
+    if (a) return detail(a);
+  }
+  if (appDlg.open) appDlg.close();
+  document.title = 'Метко Стор';
+  const c = h.match(/^#\/c\/([a-z0-9-]+)/);
+  cat = c && store.categories.some((x) => x.id === c[1]) ? c[1] : 'all';
+  render();
+}
+
+document.addEventListener('click', (e) => {
+  const t = e.target.closest('[data-cat],[data-close],[data-install],[data-share],[data-ev]');
+  if (!t) return;
+  if (t.dataset.ev) broi(t.dataset.app, t.dataset.ev);
+  if (t.dataset.cat) {
+    q = '';
+    $('#q').value = '';
+    location.hash = t.dataset.cat === 'all' ? '#/' : '#/c/' + t.dataset.cat;
+    scrollTo({ top: 0 });
+  } else if (t.hasAttribute('data-close')) {
+    const d = t.closest('dialog');
+    if (d === appDlg) closeDetail();
+    else d.close();
+  } else if (t.dataset.install) {
+    howTo(store.apps.find((x) => x.id === t.dataset.install));
+  } else if (t.dataset.share) {
+    const a = store.apps.find((x) => x.id === t.dataset.share);
+    const url = location.origin + '/#/app/' + a.id;
+    if (navigator.share) navigator.share({ title: a.name, text: a.tagline, url }).catch(() => {});
+    else navigator.clipboard && navigator.clipboard.writeText(url).then(() => { t.textContent = '✓'; t.setAttribute('aria-label', T.copied); });
+  }
+});
+function closeDetail() {
+  if (history.state && history.state.fromList) history.back();
+  else location.hash = cat === 'all' ? '#/' : '#/c/' + cat;
+}
+appDlg.addEventListener('cancel', (e) => { e.preventDefault(); closeDetail(); });
+appDlg.addEventListener('click', (e) => { if (e.target === appDlg) closeDetail(); });
+howDlg.addEventListener('click', (e) => { if (e.target === howDlg) howDlg.close(); });
+// Отваряне на подробностите от списъка: помним го, за да може „Назад“ да върне на същото място.
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('a[href^="#/app/"]');
+  if (!a || e.ctrlKey || e.metaKey) return;
+  e.preventDefault();
+  history.pushState({ fromList: true }, '', a.getAttribute('href'));
+  route();
+});
+addEventListener('hashchange', route);
+addEventListener('popstate', route);
+$('#q').addEventListener('input', (e) => { q = e.target.value.trim(); render(); });
+addEventListener('scroll', () => $('#top').classList.toggle('scrolled', scrollY > 4), { passive: true });
+
+fetch('store.json', { cache: 'no-cache' })
+  .then((r) => r.json())
+  .then((d) => { store = d; route(); })
+  .catch(() => { $('#main').innerHTML = `<p class="empty">${T.loadError}</p>`; });
+</script>
+</body>
+</html>

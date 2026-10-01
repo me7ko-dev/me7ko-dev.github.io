@@ -1,0 +1,421 @@
+{
+  "updated": "2026-10-01T21:47:22.375Z",
+  "categories": [
+    {
+      "id": "igri",
+      "name": "Игри",
+      "emoji": "🎮"
+    },
+    {
+      "id": "islyam",
+      "name": "Ислям",
+      "emoji": "🕌"
+    },
+    {
+      "id": "deca",
+      "name": "За деца",
+      "emoji": "🧸"
+    },
+    {
+      "id": "instrumenti",
+      "name": "Инструменти",
+      "emoji": "🧰"
+    }
+  ],
+  "apps": [
+    {
+      "id": "quran-kerim",
+      "repo": "me7ko-dev/quran-kerim",
+      "code": "https://github.com/me7ko-dev/quran-kerim",
+      "name": "Куран-и Керим",
+      "tagline": "Коранът на български и времената за намаз",
+      "description": "Арабският текст с превод на български, 25 рецитатора и официалните времена за намаз за всеки град и село в България.",
+      "category": "islyam",
+      "url": "https://me7ko-dev.github.io/quran-kerim/",
+      "icon": "https://me7ko-dev.github.io/quran-kerim/icons/icon-192.png",
+      "emoji": "🕌",
+      "color": "#0f766e",
+      "pwa": true,
+      "landscape": false,
+      "featured": true,
+      "play": {
+        "status": "testing",
+        "group": "https://groups.google.com/g/quran-bg-testers",
+        "testUrl": "https://play.google.com/apps/testing/bg.quran.app"
+      },
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:39:04Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/quran-kerim-phone.jpg?v=20261001203338"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/quran-kerim-pc.jpg?v=20261001203338"
+        }
+      ]
+    },
+    {
+      "id": "muallim",
+      "repo": "me7ko-dev/muallim",
+      "code": "https://github.com/me7ko-dev/muallim",
+      "name": "Муаллим",
+      "tagline": "Учител по Коран и намаз",
+      "description": "Арабската азбука, теджвид, сурите, езанът, абдестът и намазът — стъпка по стъпка, на български.",
+      "category": "islyam",
+      "url": "https://me7ko-dev.github.io/muallim/",
+      "icon": "https://me7ko-dev.github.io/muallim/icons/icon-192.png",
+      "emoji": "🕌",
+      "color": "#166534",
+      "pwa": true,
+      "landscape": false,
+      "featured": true,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:39:11Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/muallim-phone.jpg?v=20261001203349"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/muallim-pc.jpg?v=20261001203349"
+        }
+      ]
+    },
+    {
+      "id": "big-burger-business",
+      "repo": "me7ko-dev/big-burger-business",
+      "code": "https://github.com/me7ko-dev/big-burger-business",
+      "name": "Big Burger Business",
+      "tagline": "Готви бургери и разрасни ресторанта си",
+      "description": "Игра за готвене: бургери, картофки и напитки, маси, персонал и магазин с подобрения. Най-добре върви на телефон.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/big-burger-business/",
+      "icon": "https://me7ko-dev.github.io/big-burger-business/icon-192.png",
+      "emoji": "🎮",
+      "color": "#c2410c",
+      "pwa": true,
+      "landscape": true,
+      "featured": true,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:16:32Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/big-burger-business-phone.jpg?v=20261001203401"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/big-burger-business-pc.jpg?v=20261001203401"
+        }
+      ]
+    },
+    {
+      "id": "metko-magnat",
+      "repo": "me7ko-dev/metko-magnat",
+      "code": "https://github.com/me7ko-dev/metko-magnat",
+      "name": "Метко Магнат",
+      "tagline": "От лимонада до галактическа империя",
+      "description": "Бърза idle игра: започваш с будка за лимонада и стигаш до галактическа империя. 15 бизнеса, мениджъри, 224 подобрения, инвеститори и 117 постижения.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/metko-magnat/",
+      "icon": null,
+      "emoji": "🍋",
+      "color": "#ca8a04",
+      "pwa": false,
+      "landscape": false,
+      "featured": true,
+      "play": null,
+      "release": {
+        "tag": "v1.0.0",
+        "date": "2026-09-27T20:29:10Z",
+        "files": [
+          {
+            "kind": "apk",
+            "name": "MetkoMagnat.apk",
+            "url": "https://github.com/me7ko-dev/metko-magnat/releases/download/v1.0.0/MetkoMagnat.apk",
+            "size": 210085,
+            "downloads": 1
+          }
+        ]
+      },
+      "downloads": {
+        "total": 1,
+        "apk": 1,
+        "win": 0
+      },
+      "updated": "2026-10-01T21:14:51Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/metko-magnat-phone.jpg?v=20261001203423"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/metko-magnat-pc.jpg?v=20261001203423"
+        }
+      ]
+    },
+    {
+      "id": "super-metko-run",
+      "repo": "me7ko-dev/super-metko-run",
+      "code": "https://github.com/me7ko-dev/super-metko-run",
+      "name": "Супер Метко Рън",
+      "tagline": "Метко тича сам, ти само скачаш",
+      "description": "Платформена игра с едно докосване. Два режима (Рън и Класика), 4 свята, монети, тръби и смешни врагове.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/super-metko-run/",
+      "icon": null,
+      "emoji": "🏃",
+      "color": "#dc2626",
+      "pwa": false,
+      "landscape": true,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:14:08Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/super-metko-run-phone.jpg?v=20261001203921"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/super-metko-run-pc.jpg?v=20261001203921"
+        }
+      ]
+    },
+    {
+      "id": "bubble-booble-game",
+      "repo": "me7ko-dev/Bubble-booble-game",
+      "code": "https://github.com/me7ko-dev/Bubble-booble-game",
+      "name": "Балончетата",
+      "tagline": "Хващай враговете в балончета",
+      "description": "Аркада в духа на 80-те: две дракончета пускат балончета, хващат враговете и ги пукат. 100 рунда, шеф накрая, за един или двама играчи.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/Bubble-booble-game/",
+      "icon": "https://me7ko-dev.github.io/Bubble-booble-game/favicon.svg",
+      "emoji": "🫧",
+      "color": "#2563eb",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:14:14Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/bubble-booble-game-phone.jpg?v=20261001203444"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/bubble-booble-game-pc.jpg?v=20261001203444"
+        }
+      ]
+    },
+    {
+      "id": "umnik",
+      "repo": "me7ko-dev/umnik",
+      "code": "https://github.com/me7ko-dev/umnik",
+      "name": "Умник",
+      "tagline": "Безкрайни задачи за ума",
+      "description": "Смятане, редици, памет и логика. Задачите нямат край и стават все по-трудни.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/umnik/",
+      "icon": null,
+      "emoji": "🧠",
+      "color": "#7c3aed",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:14:44Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/umnik-phone.jpg?v=20261001203500"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/umnik-pc.jpg?v=20261001203500"
+        }
+      ]
+    },
+    {
+      "id": "ritam-zoo",
+      "repo": "me7ko-dev/ritam-zoo",
+      "code": "https://github.com/me7ko-dev/ritam-zoo",
+      "name": "Ритъм Зоо",
+      "tagline": "Детско ритъм пиано с животинчета",
+      "description": "Нотките падат към четири животинчета. Детето докосва животинчето навреме и то изпява нотата. 19 песнички и свободно свирене.",
+      "category": "deca",
+      "url": "https://me7ko-dev.github.io/ritam-zoo/",
+      "icon": null,
+      "emoji": "🐻",
+      "color": "#db2777",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:14:21Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/ritam-zoo-phone.jpg?v=20261001203513"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/ritam-zoo-pc.jpg?v=20261001203513"
+        }
+      ]
+    },
+    {
+      "id": "peeshta-ferma",
+      "repo": "me7ko-dev/peeshta-ferma",
+      "code": "https://github.com/me7ko-dev/peeshta-ferma",
+      "name": "Пееща ферма",
+      "tagline": "Осем животинчета, осем ноти",
+      "description": "3D музикална игра за деца: докосни животинче и то танцува и пее. Може да се записва песничка.",
+      "category": "deca",
+      "url": "https://me7ko-dev.github.io/peeshta-ferma/",
+      "icon": null,
+      "emoji": "🐮",
+      "color": "#65a30d",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:14:28Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/peeshta-ferma-phone.jpg?v=20261001203536"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/peeshta-ferma-pc.jpg?v=20261001203536"
+        }
+      ]
+    },
+    {
+      "id": "sazvezdie",
+      "repo": "me7ko-dev/sazvezdie",
+      "code": "https://github.com/me7ko-dev/sazvezdie",
+      "name": "Съзвездие",
+      "tagline": "GitHub репотата като жива галактика",
+      "description": "Всяко репо е звезда в 3D галактика. Въведи потребител в GitHub и гледай как галактиката се ражда.",
+      "category": "instrumenti",
+      "url": "https://me7ko-dev.github.io/sazvezdie/",
+      "icon": null,
+      "emoji": "🌌",
+      "color": "#4338ca",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:14:34Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/sazvezdie-phone.jpg?v=20261001203547"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/sazvezdie-pc.jpg?v=20261001203547"
+        }
+      ]
+    },
+    {
+      "id": "genesis-agent",
+      "repo": "me7ko-dev/genesis-agent",
+      "code": "https://github.com/me7ko-dev/genesis-agent",
+      "name": "Genesis",
+      "tagline": "Агент, който пише код сам",
+      "description": "Самостоятелен агент за програмиране с умения и памет, която остава между сесиите. Върви на твоя компютър.",
+      "category": "instrumenti",
+      "url": null,
+      "icon": null,
+      "emoji": "🤖",
+      "color": "#0f172a",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": {
+        "tag": "native-build-71",
+        "date": "2026-10-01T11:46:22Z",
+        "files": [
+          {
+            "kind": "apk",
+            "name": "genesis-remote-android.apk",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-71/genesis-remote-android.apk",
+            "size": 124072800,
+            "downloads": 0
+          },
+          {
+            "kind": "win",
+            "name": "genesis-windows-x64.zip",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-71/genesis-windows-x64.zip",
+            "size": 28016161,
+            "downloads": 1
+          }
+        ]
+      },
+      "downloads": {
+        "total": 2,
+        "apk": 0,
+        "win": 2
+      },
+      "updated": "2026-10-01T16:38:37Z",
+      "shots": []
+    },
+    {
+      "id": "windows20-mobile",
+      "repo": "me7ko-dev/windows20-mobile",
+      "code": "https://github.com/me7ko-dev/windows20-mobile",
+      "name": "Windows 20",
+      "tagline": "Мини „компютър“ в телефона",
+      "description": "Приложение-обвивка за телефон, което работи и без интернет. Инсталира се на началния екран.",
+      "category": "instrumenti",
+      "url": "https://me7ko-dev.github.io/windows20-mobile/",
+      "icon": "https://me7ko-dev.github.io/windows20-mobile/icons/icon-192.png",
+      "emoji": "🪟",
+      "color": "#0369a1",
+      "pwa": true,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-10-01T21:15:03Z",
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/windows20-mobile-phone.jpg?v=20261001203558"
+        },
+        {
+          "kind": "pc",
+          "src": "shots/windows20-mobile-pc.jpg?v=20261001203558"
+        }
+      ]
+    }
+  ]
+}

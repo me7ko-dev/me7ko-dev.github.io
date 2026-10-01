@@ -1,0 +1,117 @@
+{
+  "_как": "Приложенията влизат в магазина само с topic metko-store в GitHub. Тук се пише само това, което GitHub не знае: хубаво име, текст, емоджи, Google Play. Ключът е името на репото с малки букви.",
+  "categories": {
+    "igri": { "name": "Игри", "emoji": "🎮", "topics": ["game", "games", "igra"] },
+    "islyam": { "name": "Ислям", "emoji": "🕌", "topics": ["islam", "quran", "muslim"] },
+    "deca": { "name": "За деца", "emoji": "🧸", "topics": ["kids", "children", "deca"] },
+    "instrumenti": { "name": "Инструменти", "emoji": "🧰", "topics": ["tools", "tool", "utility"] }
+  },
+  "order": [
+    "quran-kerim",
+    "muallim",
+    "big-burger-business",
+    "metko-magnat",
+    "super-metko-run",
+    "bubble-booble-game",
+    "umnik",
+    "ritam-zoo",
+    "peeshta-ferma",
+    "sazvezdie",
+    "genesis-agent",
+    "windows20-mobile"
+  ],
+  "apps": {
+    "quran-kerim": {
+      "name": "Куран-и Керим",
+      "tagline": "Коранът на български и времената за намаз",
+      "description": "Арабският текст с превод на български, 25 рецитатора и официалните времена за намаз за всеки град и село в България.",
+      "featured": true,
+      "color": "#0f766e",
+      "play": {
+        "status": "testing",
+        "group": "https://groups.google.com/g/quran-bg-testers",
+        "testUrl": "https://play.google.com/apps/testing/bg.quran.app"
+      }
+    },
+    "muallim": {
+      "name": "Муаллим",
+      "tagline": "Учител по Коран и намаз",
+      "description": "Арабската азбука, теджвид, сурите, езанът, абдестът и намазът — стъпка по стъпка, на български.",
+      "featured": true,
+      "color": "#166534"
+    },
+    "big-burger-business": {
+      "name": "Big Burger Business",
+      "tagline": "Готви бургери и разрасни ресторанта си",
+      "description": "Игра за готвене: бургери, картофки и напитки, маси, персонал и магазин с подобрения. Най-добре върви на телефон.",
+      "featured": true,
+      "color": "#c2410c"
+    },
+    "metko-magnat": {
+      "name": "Метко Магнат",
+      "tagline": "От лимонада до галактическа империя",
+      "description": "Бърза idle игра: започваш с будка за лимонада и стигаш до галактическа империя. 15 бизнеса, мениджъри, 224 подобрения, инвеститори и 117 постижения.",
+      "emoji": "🍋",
+      "featured": true,
+      "color": "#ca8a04"
+    },
+    "super-metko-run": {
+      "name": "Супер Метко Рън",
+      "tagline": "Метко тича сам, ти само скачаш",
+      "description": "Платформена игра с едно докосване. Два режима (Рън и Класика), 4 свята, монети, тръби и смешни врагове.",
+      "emoji": "🏃",
+      "color": "#dc2626",
+      "landscape": true
+    },
+    "bubble-booble-game": {
+      "name": "Балончетата",
+      "tagline": "Хващай враговете в балончета",
+      "description": "Аркада в духа на 80-те: две дракончета пускат балончета, хващат враговете и ги пукат. 100 рунда, шеф накрая, за един или двама играчи.",
+      "emoji": "🫧",
+      "category": "igri",
+      "color": "#2563eb"
+    },
+    "umnik": {
+      "name": "Умник",
+      "tagline": "Безкрайни задачи за ума",
+      "description": "Смятане, редици, памет и логика. Задачите нямат край и стават все по-трудни.",
+      "emoji": "🧠",
+      "color": "#7c3aed"
+    },
+    "ritam-zoo": {
+      "name": "Ритъм Зоо",
+      "tagline": "Детско ритъм пиано с животинчета",
+      "description": "Нотките падат към четири животинчета. Детето докосва животинчето навреме и то изпява нотата. 19 песнички и свободно свирене.",
+      "emoji": "🐻",
+      "color": "#db2777"
+    },
+    "peeshta-ferma": {
+      "name": "Пееща ферма",
+      "tagline": "Осем животинчета, осем ноти",
+      "description": "3D музикална игра за деца: докосни животинче и то танцува и пее. Може да се записва песничка.",
+      "emoji": "🐮",
+      "color": "#65a30d"
+    },
+    "sazvezdie": {
+      "name": "Съзвездие",
+      "tagline": "GitHub репотата като жива галактика",
+      "description": "Всяко репо е звезда в 3D галактика. Въведи потребител в GitHub и гледай как галактиката се ражда.",
+      "emoji": "🌌",
+      "color": "#4338ca"
+    },
+    "genesis-agent": {
+      "name": "Genesis",
+      "tagline": "Агент, който пише код сам",
+      "description": "Самостоятелен агент за програмиране с умения и памет, която остава между сесиите. Върви на твоя компютър.",
+      "emoji": "🤖",
+      "color": "#0f172a"
+    },
+    "windows20-mobile": {
+      "name": "Windows 20",
+      "tagline": "Мини „компютър“ в телефона",
+      "description": "Приложение-обвивка за телефон, което работи и без интернет. Инсталира се на началния екран.",
+      "emoji": "🪟",
+      "color": "#0369a1"
+    }
+  }
+}

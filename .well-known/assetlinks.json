@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "bg.quran.app",
+      "sha256_cert_fingerprints": [
+        "84:A8:35:21:07:83:9D:C1:6B:C0:BA:C3:70:9D:05:57:10:4D:70:C2:6D:D1:0A:F7:E1:FE:26:26:A1:C5:A6:2B",
+        "43:6A:00:EC:98:A2:6A:CA:82:59:9F:2A:55:DA:89:11:72:AE:C1:E6:EE:65:A9:B1:33:3D:C9:FF:B4:34:08:F1"
+      ]
+    }
+  }
+]
