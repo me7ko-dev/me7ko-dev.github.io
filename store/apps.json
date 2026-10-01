@@ -9,6 +9,7 @@
   "order": [
     "quran-kerim",
     "muallim",
+    "rodopska-ferma",
     "big-burger-business",
     "metko-magnat",
     "super-metko-run",
@@ -39,6 +40,14 @@
       "description": "Арабската азбука, теджвид, сурите, езанът, абдестът и намазът — стъпка по стъпка, на български.",
       "featured": true,
       "color": "#166534"
+    },
+    "rodopska-ferma": {
+      "name": "Родопска ферма",
+      "tagline": "3D ферма в Родопите — сей, гледай животни, купувай къщи и коли",
+      "description": "Голяма 3D игра за ферма: 14 култури, кокошки, крави, овце, кози и пчели, 11 работилници (баница, родопско кисело мляко, лютеница, баклава), поръчки от селото, къщи с наем и 10 коли, които можеш да караш.",
+      "emoji": "🌾",
+      "featured": true,
+      "color": "#4d7c0f"
     },
     "big-burger-business": {
       "name": "Big Burger Business",
