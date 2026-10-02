@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T23:42:02.878Z",
+  "updated": "2026-10-02T09:55:35.447Z",
   "categories": [
     {
       "id": "igri",
@@ -105,23 +105,23 @@
       "play": null,
       "release": {
         "tag": "latest",
-        "date": "2026-10-01T23:36:59Z",
+        "date": "2026-10-02T00:26:08Z",
         "files": [
           {
             "kind": "win",
             "name": "RodopskaFerma-windows.zip",
             "url": "https://github.com/me7ko-dev/rodopska-ferma/releases/download/latest/RodopskaFerma-windows.zip",
-            "size": 172736901,
-            "downloads": 0
+            "size": 172736245,
+            "downloads": 2
           }
         ]
       },
       "downloads": {
-        "total": 0,
+        "total": 2,
         "apk": 0,
-        "win": 0
+        "win": 2
       },
-      "updated": "2026-10-01T23:36:59Z",
+      "updated": "2026-10-02T00:26:08Z",
       "shots": [
         {
           "kind": "phone",
