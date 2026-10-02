@@ -10,6 +10,7 @@
     "quran-kerim",
     "muallim",
     "rodopska-ferma",
+    "orda",
     "big-burger-business",
     "metko-magnat",
     "super-metko-run",
@@ -48,6 +49,14 @@
       "emoji": "🌾",
       "featured": true,
       "color": "#4d7c0f"
+    },
+    "orda": {
+      "name": "Орда",
+      "tagline": "Оцелей срещу стотици зомбита по покривите на града",
+      "description": "3D екшън: героят има механични ръце с оръжия, които стрелят сами. Скачай между покривите, докато ордата се катери по стените, отваряй сандъци „Подобрение“ и сливай еднаквите оръжия в раницата в по-силни — 9 оръжия, 5 редкости, вълни и босове.",
+      "emoji": "🧟",
+      "featured": true,
+      "color": "#b45309"
     },
     "big-burger-business": {
       "name": "Big Burger Business",
