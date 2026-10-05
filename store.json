@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T09:57:25.932Z",
+  "updated": "2026-10-05T10:40:13.861Z",
   "categories": [
     {
       "id": "igri",
@@ -49,11 +49,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/quran-kerim-phone.jpg?v=20261001203338"
+          "src": "shots/quran-kerim-phone.jpg?v=20261005104128"
         },
         {
           "kind": "pc",
-          "src": "shots/quran-kerim-pc.jpg?v=20261001203338"
+          "src": "shots/quran-kerim-pc.jpg?v=20261005104128"
         }
       ]
     },
@@ -79,11 +79,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/muallim-phone.jpg?v=20261001203349"
+          "src": "shots/muallim-phone.jpg?v=20261005104143"
         },
         {
           "kind": "pc",
-          "src": "shots/muallim-pc.jpg?v=20261001203349"
+          "src": "shots/muallim-pc.jpg?v=20261005104143"
         }
       ]
     },
@@ -264,11 +264,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/super-metko-run-phone.jpg?v=20261001203921"
+          "src": "shots/super-metko-run-phone.jpg?v=20261005104641"
         },
         {
           "kind": "pc",
-          "src": "shots/super-metko-run-pc.jpg?v=20261001203921"
+          "src": "shots/super-metko-run-pc.jpg?v=20261005104641"
         }
       ]
     },
@@ -324,11 +324,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/umnik-phone.jpg?v=20261001203500"
+          "src": "shots/umnik-phone.jpg?v=20261005104931"
         },
         {
           "kind": "pc",
-          "src": "shots/umnik-pc.jpg?v=20261001203500"
+          "src": "shots/umnik-pc.jpg?v=20261005104931"
         }
       ]
     },
@@ -463,7 +463,7 @@
         "apk": 0,
         "win": 2
       },
-      "updated": "2026-10-04T08:59:10Z",
+      "updated": "2026-10-04T20:51:09Z",
       "shots": []
     },
     {
@@ -488,11 +488,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/windows20-mobile-phone.jpg?v=20261001203558"
+          "src": "shots/windows20-mobile-phone.jpg?v=20261005105400"
         },
         {
           "kind": "pc",
-          "src": "shots/windows20-mobile-pc.jpg?v=20261001203558"
+          "src": "shots/windows20-mobile-pc.jpg?v=20261005105400"
         }
       ]
     }
