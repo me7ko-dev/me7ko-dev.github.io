@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T10:40:13.861Z",
+  "updated": "2026-10-06T10:33:21.150Z",
   "categories": [
     {
       "id": "igri",
@@ -354,11 +354,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/ritam-zoo-phone.jpg?v=20261001203513"
+          "src": "shots/ritam-zoo-phone.jpg?v=20261006103940"
         },
         {
           "kind": "pc",
-          "src": "shots/ritam-zoo-pc.jpg?v=20261001203513"
+          "src": "shots/ritam-zoo-pc.jpg?v=20261006103940"
         }
       ]
     },
@@ -439,31 +439,31 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-71",
-        "date": "2026-10-01T11:46:22Z",
+        "tag": "native-build-81",
+        "date": "2026-10-06T09:50:09Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-71/genesis-remote-android.apk",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-81/genesis-remote-android.apk",
             "size": 124072800,
             "downloads": 0
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-71/genesis-windows-x64.zip",
-            "size": 28016161,
-            "downloads": 1
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-81/genesis-windows-x64.zip",
+            "size": 28020307,
+            "downloads": 0
           }
         ]
       },
       "downloads": {
-        "total": 2,
+        "total": 3,
         "apk": 0,
-        "win": 2
+        "win": 3
       },
-      "updated": "2026-10-04T20:51:09Z",
+      "updated": "2026-10-06T09:50:12Z",
       "shots": []
     },
     {
