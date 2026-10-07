@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T10:33:21.150Z",
+  "updated": "2026-10-07T10:25:24.189Z",
   "categories": [
     {
       "id": "igri",
@@ -414,11 +414,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/sazvezdie-phone.jpg?v=20261001203547"
+          "src": "shots/sazvezdie-phone.jpg?v=20261007103331"
         },
         {
           "kind": "pc",
-          "src": "shots/sazvezdie-pc.jpg?v=20261001203547"
+          "src": "shots/sazvezdie-pc.jpg?v=20261007103331"
         }
       ]
     },
@@ -463,7 +463,7 @@
         "apk": 0,
         "win": 3
       },
-      "updated": "2026-10-06T09:50:12Z",
+      "updated": "2026-10-07T10:18:15Z",
       "shots": []
     },
     {
