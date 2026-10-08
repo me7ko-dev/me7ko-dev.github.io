@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:25:24.189Z",
+  "updated": "2026-10-08T10:45:45.747Z",
   "categories": [
     {
       "id": "igri",
@@ -294,11 +294,11 @@
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/bubble-booble-game-phone.jpg?v=20261001203444"
+          "src": "shots/bubble-booble-game-phone.jpg?v=20261008105106"
         },
         {
           "kind": "pc",
-          "src": "shots/bubble-booble-game-pc.jpg?v=20261001203444"
+          "src": "shots/bubble-booble-game-pc.jpg?v=20261008105106"
         }
       ]
     },
@@ -439,31 +439,31 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-81",
-        "date": "2026-10-06T09:50:09Z",
+        "tag": "native-build-95",
+        "date": "2026-10-08T05:22:05Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-81/genesis-remote-android.apk",
-            "size": 124072800,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-95/genesis-remote-android.apk",
+            "size": 124074468,
             "downloads": 0
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-81/genesis-windows-x64.zip",
-            "size": 28020307,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-95/genesis-windows-x64.zip",
+            "size": 28395806,
             "downloads": 0
           }
         ]
       },
       "downloads": {
-        "total": 3,
+        "total": 2,
         "apk": 0,
-        "win": 3
+        "win": 2
       },
-      "updated": "2026-10-07T10:18:15Z",
+      "updated": "2026-10-08T05:22:08Z",
       "shots": []
     },
     {
