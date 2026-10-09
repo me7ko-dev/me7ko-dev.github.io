@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T10:45:45.747Z",
+  "updated": "2026-10-09T10:44:40.314Z",
   "categories": [
     {
       "id": "igri",
@@ -439,31 +439,31 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-95",
-        "date": "2026-10-08T05:22:05Z",
+        "tag": "native-build-109",
+        "date": "2026-10-09T09:07:32Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-95/genesis-remote-android.apk",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-109/genesis-remote-android.apk",
             "size": 124074468,
             "downloads": 0
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-95/genesis-windows-x64.zip",
-            "size": 28395806,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-109/genesis-windows-x64.zip",
+            "size": 28612541,
             "downloads": 0
           }
         ]
       },
       "downloads": {
-        "total": 2,
+        "total": 3,
         "apk": 0,
-        "win": 2
+        "win": 3
       },
-      "updated": "2026-10-08T05:22:08Z",
+      "updated": "2026-10-09T09:07:35Z",
       "shots": []
     },
     {
