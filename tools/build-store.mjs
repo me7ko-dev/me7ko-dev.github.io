@@ -126,7 +126,10 @@ async function main() {
     repos.push(...batch);
     if (batch.length < 100) break;
   }
-  const chosen = repos.filter((r) => !r.private && !r.archived && (r.topics || []).includes(TOPIC));
+  // Влизат с topic metko-store или с "include": true в store/apps.json.
+  const chosen = repos.filter(
+    (r) => !r.private && !r.archived && ((r.topics || []).includes(TOPIC) || conf.apps[r.name.toLowerCase()]?.include),
+  );
 
   const apps = [];
   for (const r of chosen) {
@@ -166,6 +169,9 @@ async function main() {
         };
       }
     }
+
+    // Без сайт и без файлове няма какво да се пусне — такова приложение (от "include") чака.
+    if (ov.include && !url && !release) continue;
 
     const [descName, descRest] = splitDescription(r.description);
     const topicCat = Object.entries(conf.categories).find(([, c]) => c.topics.some((t) => (r.topics || []).includes(t)));

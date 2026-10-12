@@ -1,5 +1,5 @@
 {
-  "_как": "Приложенията влизат в магазина само с topic metko-store в GitHub. Тук се пише само това, което GitHub не знае: хубаво име, текст, емоджи, Google Play. Ключът е името на репото с малки букви.",
+  "_как": "Приложенията влизат в магазина с topic metko-store в GitHub (или с \"include\": true тук). Тук се пише само това, което GitHub не знае: хубаво име, текст, емоджи, Google Play. Ключът е името на репото с малки букви.",
   "categories": {
     "igri": { "name": "Игри", "emoji": "🎮", "topics": ["game", "games", "igra"] },
     "islyam": { "name": "Ислям", "emoji": "🕌", "topics": ["islam", "quran", "muslim"] },
@@ -11,6 +11,8 @@
     "muallim",
     "rodopska-ferma",
     "orda",
+    "sheepdog-rush",
+    "rocknet-snail",
     "big-burger-business",
     "metko-magnat",
     "super-metko-run",
@@ -57,6 +59,29 @@
       "emoji": "🧟",
       "featured": true,
       "color": "#b45309"
+    },
+    "sheepdog-rush": {
+      "include": true,
+      "category": "igri",
+      "name": "Sheepdog Rush",
+      "tagline": "Води кучето и прибери овцете в хамбара",
+      "description": "3D пъзел игра във фермата: водиш куче с пръст и прибираш всички овце в двора на хамбара, преди да изтече времето. 30 нива в три свята (пролет, есен и сняг), инатливи черни овце, вълк, лай „БАУ!“ и колибка с дрешки за кучето.",
+      "emoji": "🐑",
+      "icon": "https://raw.githubusercontent.com/me7ko-dev/Sheepdog-Rush/main/store/icon-512.png",
+      "featured": true,
+      "color": "#2f855a"
+    },
+    "rocknet-snail": {
+      "include": true,
+      "category": "igri",
+      "name": "Rocket Snail",
+      "tagline": "Охлюв с ракета лети през градината",
+      "description": "Задържаш пръст и охлювът лети нагоре, пускаш и пада. Пази се от птици, листа, маркучи и дъжд и събирай маруля за 9 ракети и 8 шапки. Бонуси, задачи за деня, ден и нощ.",
+      "emoji": "🐌",
+      "icon": "https://raw.githubusercontent.com/me7ko-dev/Rocknet-Snail/main/assets/icon.png",
+      "featured": true,
+      "color": "#0ea5e9",
+      "landscape": true
     },
     "big-burger-business": {
       "name": "Big Burger Business",
