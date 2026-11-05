@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T11:04:32.757Z",
+  "updated": "2026-11-05T11:13:46.787Z",
   "categories": [
     {
       "id": "igri",
@@ -439,38 +439,38 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-304",
-        "date": "2026-10-28T21:06:57Z",
+        "tag": "native-build-306",
+        "date": "2026-11-05T11:01:00Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-304/genesis-remote-android.apk",
-            "size": 126793075,
-            "downloads": 1
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-306/genesis-remote-android.apk",
+            "size": 126793071,
+            "downloads": 0
           },
           {
             "kind": "win",
             "name": "Genesis-Setup-0.1.0.exe",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-304/Genesis-Setup-0.1.0.exe",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-306/Genesis-Setup-0.1.0.exe",
             "size": 111592740,
-            "downloads": 1
+            "downloads": 0
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-304/genesis-windows-x64.zip",
-            "size": 39234007,
-            "downloads": 1
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-306/genesis-windows-x64.zip",
+            "size": 39603485,
+            "downloads": 0
           }
         ]
       },
       "downloads": {
-        "total": 15,
-        "apk": 5,
-        "win": 10
+        "total": 12,
+        "apk": 4,
+        "win": 8
       },
-      "updated": "2026-10-28T21:07:00Z",
+      "updated": "2026-11-05T11:01:03Z",
       "shots": []
     },
     {
