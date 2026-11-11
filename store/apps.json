@@ -11,6 +11,7 @@
     "muallim",
     "rodopska-ferma",
     "orda",
+    "rali-rodopi",
     "sheepdog-rush",
     "rocknet-snail",
     "big-burger-business",
@@ -59,6 +60,15 @@
       "emoji": "🧟",
       "featured": true,
       "color": "#b45309"
+    },
+    "rali-rodopi": {
+      "name": "Рали Родопи",
+      "tagline": "3D рали по пистите на Родопите — тръгваш последен",
+      "description": "Шест коли (седан, хечбек, болид, прототип, джип, патрулка), три писти — Язовир Доспат, Велинград и Сърница — по три обиколки срещу петима съперници. Нитро, дрифт, най-добра обиколка за всяка писта. Играе се с клавиатура или с пръст на телефона.",
+      "emoji": "🏁",
+      "featured": true,
+      "color": "#c2410c",
+      "landscape": true
     },
     "sheepdog-rush": {
       "include": true,
