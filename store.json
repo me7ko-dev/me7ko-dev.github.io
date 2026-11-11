@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T11:14:22.161Z",
+  "updated": "2026-11-11T23:04:34.858Z",
   "categories": [
     {
       "id": "igri",
@@ -164,6 +164,27 @@
         "win": 1
       },
       "updated": "2026-10-02T18:51:35Z",
+      "shots": []
+    },
+    {
+      "id": "rali-rodopi",
+      "repo": "me7ko-dev/rali-rodopi",
+      "code": "https://github.com/me7ko-dev/rali-rodopi",
+      "name": "Рали Родопи",
+      "tagline": "3D рали по пистите на Родопите — тръгваш последен",
+      "description": "Шест коли (седан, хечбек, болид, прототип, джип, патрулка), три писти — Язовир Доспат, Велинград и Сърница — по три обиколки срещу петима съперници. Нитро, дрифт, най-добра обиколка за всяка писта. Играе се с клавиатура или с пръст на телефона.",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/rali-rodopi/",
+      "icon": null,
+      "emoji": "🏁",
+      "color": "#c2410c",
+      "pwa": false,
+      "landscape": true,
+      "featured": true,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-11-11T23:03:48Z",
       "shots": []
     },
     {
@@ -454,7 +475,7 @@
             "name": "Genesis-Setup-0.1.0.exe",
             "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-332/Genesis-Setup-0.1.0.exe",
             "size": 111592739,
-            "downloads": 1
+            "downloads": 2
           },
           {
             "kind": "win",
@@ -466,11 +487,11 @@
         ]
       },
       "downloads": {
-        "total": 19,
+        "total": 20,
         "apk": 5,
-        "win": 14
+        "win": 15
       },
-      "updated": "2026-11-11T00:07:18Z",
+      "updated": "2026-11-11T22:42:52Z",
       "shots": []
     },
     {
