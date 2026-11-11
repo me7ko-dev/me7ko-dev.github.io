@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T11:26:13.865Z",
+  "updated": "2026-11-11T11:14:22.161Z",
   "categories": [
     {
       "id": "igri",
@@ -439,38 +439,38 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-316",
-        "date": "2026-11-09T22:47:53Z",
+        "tag": "native-build-332",
+        "date": "2026-11-11T00:07:15Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-316/genesis-remote-android.apk",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-332/genesis-remote-android.apk",
             "size": 126793075,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "Genesis-Setup-0.1.0.exe",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-316/Genesis-Setup-0.1.0.exe",
-            "size": 111592740,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-332/Genesis-Setup-0.1.0.exe",
+            "size": 111592739,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-316/genesis-windows-x64.zip",
-            "size": 39638841,
-            "downloads": 1
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-332/genesis-windows-x64.zip",
+            "size": 39669445,
+            "downloads": 3
           }
         ]
       },
       "downloads": {
-        "total": 15,
+        "total": 19,
         "apk": 5,
-        "win": 10
+        "win": 14
       },
-      "updated": "2026-11-10T01:25:06Z",
+      "updated": "2026-11-11T00:07:18Z",
       "shots": []
     },
     {
