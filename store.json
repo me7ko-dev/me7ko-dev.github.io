@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T11:31:30.741Z",
+  "updated": "2026-11-13T11:16:23.900Z",
   "categories": [
     {
       "id": "igri",
@@ -185,7 +185,12 @@
       "release": null,
       "downloads": null,
       "updated": "2026-11-12T00:03:08Z",
-      "shots": []
+      "shots": [
+        {
+          "kind": "phone",
+          "src": "shots/rali-rodopi-phone.jpg"
+        }
+      ]
     },
     {
       "id": "big-burger-business",
@@ -491,7 +496,7 @@
         "apk": 5,
         "win": 15
       },
-      "updated": "2026-11-12T11:11:36Z",
+      "updated": "2026-11-12T23:11:38Z",
       "shots": []
     },
     {
