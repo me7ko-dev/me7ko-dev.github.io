@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:16:23.900Z",
+  "updated": "2026-11-14T10:41:39.379Z",
   "categories": [
     {
       "id": "igri",
@@ -75,15 +75,15 @@
       "play": null,
       "release": null,
       "downloads": null,
-      "updated": "2026-10-01T22:00:10Z",
+      "updated": "2026-11-13T20:06:59Z",
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/muallim-phone.jpg?v=20261005104143"
+          "src": "shots/muallim-phone.jpg?v=20261114104204"
         },
         {
           "kind": "pc",
-          "src": "shots/muallim-pc.jpg?v=20261005104143"
+          "src": "shots/muallim-pc.jpg?v=20261114104204"
         }
       ]
     },
@@ -496,7 +496,7 @@
         "apk": 5,
         "win": 15
       },
-      "updated": "2026-11-12T23:11:38Z",
+      "updated": "2026-11-13T12:03:53Z",
       "shots": []
     },
     {
