@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T11:15:18.270Z",
+  "updated": "2026-11-15T17:49:27.981Z",
   "categories": [
     {
       "id": "igri",
@@ -465,38 +465,38 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-346",
-        "date": "2026-11-15T09:50:55Z",
+        "tag": "native-build-356",
+        "date": "2026-11-15T17:05:32Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-346/genesis-remote-android.apk",
-            "size": 126793075,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-356/genesis-remote-android.apk",
+            "size": 126793071,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "Genesis-Setup-0.1.0.exe",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-346/Genesis-Setup-0.1.0.exe",
-            "size": 111592739,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-356/Genesis-Setup-0.1.0.exe",
+            "size": 111592734,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-346/genesis-windows-x64.zip",
-            "size": 39692055,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-356/genesis-windows-x64.zip",
+            "size": 39692729,
             "downloads": 1
           }
         ]
       },
       "downloads": {
-        "total": 19,
+        "total": 15,
         "apk": 5,
-        "win": 14
+        "win": 10
       },
-      "updated": "2026-11-15T09:50:57Z",
+      "updated": "2026-11-15T17:05:34Z",
       "shots": []
     },
     {
@@ -528,6 +528,27 @@
           "src": "shots/windows20-mobile-pc.jpg?v=20261005105400"
         }
       ]
+    },
+    {
+      "id": "neon-drift",
+      "repo": "me7ko-dev/neon-drift",
+      "code": "https://github.com/me7ko-dev/neon-drift",
+      "name": "Neon Drift",
+      "tagline": "3D неонова аркадна игра в браузъра: карай по безкрайна магистрала, избягвай трафика и събирай монети. Играй: https://me7ko-dev.github.io/neon-drift/",
+      "description": "Neon Drift — 3D неонова аркадна игра в браузъра: карай по безкрайна магистрала, избягвай трафика и събирай монети. Играй: https://me7ko-dev.github.io/neon-drift/",
+      "category": "igri",
+      "url": "https://me7ko-dev.github.io/neon-drift/",
+      "icon": null,
+      "emoji": "🎮",
+      "color": "#334155",
+      "pwa": false,
+      "landscape": false,
+      "featured": false,
+      "play": null,
+      "release": null,
+      "downloads": null,
+      "updated": "2026-11-15T17:47:14Z",
+      "shots": []
     }
   ]
 }
