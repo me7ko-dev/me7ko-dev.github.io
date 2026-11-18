@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T12:07:24.398Z",
+  "updated": "2026-11-18T11:57:23.536Z",
   "categories": [
     {
       "id": "igri",
@@ -75,7 +75,7 @@
       "play": null,
       "release": null,
       "downloads": null,
-      "updated": "2026-11-17T05:08:08Z",
+      "updated": "2026-11-17T15:33:22Z",
       "shots": [
         {
           "kind": "phone",
@@ -465,28 +465,28 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-356",
-        "date": "2026-11-15T17:05:32Z",
+        "tag": "native-build-366",
+        "date": "2026-11-17T20:42:37Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-356/genesis-remote-android.apk",
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-366/genesis-remote-android.apk",
             "size": 126793071,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "Genesis-Setup-0.1.0.exe",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-356/Genesis-Setup-0.1.0.exe",
-            "size": 111592734,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-366/Genesis-Setup-0.1.0.exe",
+            "size": 111592739,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-356/genesis-windows-x64.zip",
-            "size": 39692729,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-366/genesis-windows-x64.zip",
+            "size": 39778408,
             "downloads": 1
           }
         ]
@@ -496,7 +496,7 @@
         "apk": 5,
         "win": 10
       },
-      "updated": "2026-11-15T17:05:34Z",
+      "updated": "2026-11-17T20:42:40Z",
       "shots": []
     },
     {
