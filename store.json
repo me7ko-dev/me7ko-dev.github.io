@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T11:57:23.536Z",
+  "updated": "2026-11-19T11:54:50.334Z",
   "categories": [
     {
       "id": "igri",
@@ -45,15 +45,15 @@
       },
       "release": null,
       "downloads": null,
-      "updated": "2026-11-02T12:40:09Z",
+      "updated": "2026-11-18T19:12:57Z",
       "shots": [
         {
           "kind": "phone",
-          "src": "shots/quran-kerim-phone.jpg?v=20261103110549"
+          "src": "shots/quran-kerim-phone.jpg?v=20261119115619"
         },
         {
           "kind": "pc",
-          "src": "shots/quran-kerim-pc.jpg?v=20261103110549"
+          "src": "shots/quran-kerim-pc.jpg?v=20261119115619"
         }
       ]
     },
