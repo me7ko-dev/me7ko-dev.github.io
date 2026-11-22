@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T11:55:54.369Z",
+  "updated": "2026-11-22T11:42:43.454Z",
   "categories": [
     {
       "id": "igri",
@@ -465,38 +465,38 @@
       "featured": false,
       "play": null,
       "release": {
-        "tag": "native-build-366",
-        "date": "2026-11-17T20:42:37Z",
+        "tag": "native-build-368",
+        "date": "2026-11-21T12:44:17Z",
         "files": [
           {
             "kind": "apk",
             "name": "genesis-remote-android.apk",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-366/genesis-remote-android.apk",
-            "size": 126793071,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-368/genesis-remote-android.apk",
+            "size": 126793075,
             "downloads": 1
           },
           {
             "kind": "win",
             "name": "Genesis-Setup-0.1.0.exe",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-366/Genesis-Setup-0.1.0.exe",
-            "size": 111592739,
-            "downloads": 1
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-368/Genesis-Setup-0.1.0.exe",
+            "size": 111595127,
+            "downloads": 2
           },
           {
             "kind": "win",
             "name": "genesis-windows-x64.zip",
-            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-366/genesis-windows-x64.zip",
-            "size": 39778408,
+            "url": "https://github.com/me7ko-dev/genesis-agent/releases/download/native-build-368/genesis-windows-x64.zip",
+            "size": 39824571,
             "downloads": 1
           }
         ]
       },
       "downloads": {
-        "total": 15,
+        "total": 16,
         "apk": 5,
-        "win": 10
+        "win": 11
       },
-      "updated": "2026-11-20T10:17:46Z",
+      "updated": "2026-11-21T12:44:19Z",
       "shots": []
     },
     {
